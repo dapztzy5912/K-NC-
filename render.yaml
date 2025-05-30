@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: buku-tamu
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
